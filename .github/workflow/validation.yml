@@ -1,0 +1,15 @@
+name: Validate HTML and CSS
+
+on: [push, pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Proof HTML and CSS
+        uses: anishathalye/proof-html@v4
+        with:
+          directory: ./
+          check_html: true
+          check_css: true

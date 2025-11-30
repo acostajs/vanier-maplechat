@@ -1,0 +1,20 @@
+.hero {
+	height: 80vh;
+	gap: var(--gap-lg);
+
+	& article,
+	aside {
+		width: 50%;
+	}
+
+	& article {
+		flex-direction: column;
+		gap: var(--gap-lg);
+		justify-content: center;
+		text-align: right;
+	}
+
+	& aside {
+		height: 500px;
+	}
+}

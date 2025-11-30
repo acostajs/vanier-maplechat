@@ -1,0 +1,31 @@
+@import "variables.css";
+
+nav {
+	background-color: var(--color-bg-white);
+	color: var(--color-text-dark);
+	padding: var(--padding-md) var(--padding-xl);
+	border-bottom: 1px dashed var(--color-border-dark);
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	height: var(--nav-height);
+
+	& a {
+		color: inherit;
+	}
+
+	& .logo {
+		height: 60px;
+		width: 60px;
+	}
+
+	& ul {
+		gap: 10px;
+	}
+}
+
+nav,
+nav > ul {
+	justify-content: space-between;
+	align-items: center;
+}
