@@ -4,13 +4,15 @@
 	--color-bg-red: #d52b1e;
 	--color-bg-white: #ffffff;
 	--color-bg-dark: #0f172a;
+	--color-bg-muted: #6b7280;
 
 	--color-text-dark: #0f172a;
+	--color-text-red: #d52b1e;
 	--color-text-white: #f9fafb;
 	--color-text-muted: #6b7280;
 
 	--color-border-light: #e5e7eb;
-	--color-border-dark: #6b7280;
+	--color-border-dark: #0f172a;
 
 	/* Layout */
 	--container-max-width: 1300px;
@@ -24,12 +26,12 @@
 	--font-size-base: 1rem;
 
 	/* Responsive headings with clamp(min, preferred, max) */
-	--font-size-h1: clamp(2.4rem, 4vw, 3.2rem);
-	--font-size-h2: clamp(2rem, 3vw, 2.6rem);
-	--font-size-h3: clamp(1.6rem, 2.4vw, 2.1rem);
-	--font-size-h4: clamp(1.4rem, 2vw, 1.8rem);
-	--font-size-h5: clamp(1.2rem, 1.6vw, 1.5rem);
-	--font-size-h6: clamp(1.05rem, 1.3vw, 1.25rem);
+	--font-size-h1: clamp(2.4rem, 4vw, 4.5rem);
+	--font-size-h2: clamp(2rem, 3vw, 3.5rem);
+	--font-size-h3: clamp(1.6rem, 2.4vw, 2.8rem);
+	--font-size-h4: clamp(1.4rem, 2vw, 2.4rem);
+	--font-size-h5: clamp(1.2rem, 1.6vw, 2rem);
+	--font-size-h6: clamp(1.05rem, 1.3vw, 1.75rem);
 
 	/* Gap sizes (for flex/grid gap) */
 	--gap-xs: 0.25rem;
@@ -46,6 +48,7 @@
 	--padding-xl: 2rem;
 
 	/* Margin sizes */
+	--margin-center: 0 auto;
 	--margin-xs: 0.25rem;
 	--margin-sm: 0.5rem;
 	--margin-md: 1rem;
@@ -60,4 +63,13 @@
 
 	/* Radius */
 	--radius: 1rem;
+
+	/* Container */
+	--container-padding: 1rem;
+	--container-max-width: 1300px;
+	--container-width: 90%;
+
+	/* Section */
+	--section-header-padding-bottom: 80px;
+	--section-padding: 100px 0;
 }

@@ -1,7 +1,10 @@
 @import "components/nav.css";
 @import "components/footer.css";
 @import "sections/hero.css";
+@import "sections/vision.css";
 @import "sections/features.css";
+@import "sections/privacy.css";
+@import "sections/faq.css";
 @import "variables.css";
 
 /* RESET */
@@ -70,10 +73,12 @@ a {
 	text-decoration: none;
 }
 
-button {
+button,
+.btn {
 	border: none;
 	padding: var(--btn-padding);
 	border-radius: var(--radius);
+	display: inline-block;
 }
 
 /* UNIVERSAL STYLING */
@@ -85,6 +90,44 @@ body {
 
 main {
 	padding-top: var(--nav-height);
+}
+
+section {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: var(--section-padding);
+	scroll-margin-top: var(--nav-height);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: rgba(255, 255, 255, 80%);
+	background-blend-mode: overlay;
+}
+
+section > .container > header {
+	max-width: 800px;
+	padding-bottom: var(--section-header-padding-bottom);
+}
+
+section > .container > header > h2 {
+	font-size: clamp(0.8rem, 2.2vw, 1rem);
+	font-weight: 800;
+	margin-bottom: var(--margin-sm);
+	color: var(--color-text-red);
+}
+
+section > .container > header > p {
+	font-size: clamp(2rem, 3vw, 3.5rem);
+	font-weight: 800;
+}
+
+.vision > .container > header,
+.features > .container > header,
+.privacy > .container > header {
+	margin: var(--margin-center);
+	text-align: center;
 }
 
 h1 {
@@ -108,13 +151,19 @@ h6 {
 
 /* SHARED CLASSES */
 .container {
+	width: var(--container-width);
 	max-width: var(--container-max-width);
 	padding: var(--container-padding);
-	margin: 0 auto;
+	margin: var(--margin-center);
 }
 
 .flex {
 	display: flex;
+}
+
+.flex-center {
+	align-items: center;
+	justify-content: center;
 }
 
 .grid {
@@ -132,5 +181,13 @@ h6 {
 .btn-primary,
 .btn-secondary {
 	color: var(--color-text-white);
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+		1px 1px 0 black;
 	font-weight: 800;
+}
+
+.card {
+	padding: var(--padding-lg);
+	border-radius: 0.75rem;
+	background-color: var(--color-bg-white);
 }

@@ -1,0 +1,21 @@
+@import "../variables.css";
+
+.vision {
+	background-image: url("../../assets/images/vision-background.png");
+	color: var(--color-text-dark);
+	padding: var(--padding-xl) var(--container-padding-x);
+
+	& header > p {
+		color: var(--color-text-muted);
+	}
+
+	& article {
+		max-width: 70%;
+		margin: var(--margin-center);
+	}
+
+	& article > p {
+		font-size: clamp(1.15rem, 1.1vw, 1.5rem);
+		text-align: center;
+	}
+}

@@ -22,20 +22,19 @@
 	<body>
 		<header>
 			<nav class="flex">
-				<a href="#home">
+				<a href="#home" class="flex flex-center">
 					<figure class="logo">
 						<img src="./assets/images/logo.webp" alt="MapleChat" />
 					</figure>
+					<span>MapleChat</span>
 				</a>
-
-				<span>MapleChat</span>
 
 				<ul class="flex">
 					<li><a href="#home">Home</a></li>
+					<li><a href="#vision">Vision</a></li>
 					<li><a href="#features">Features</a></li>
-					<li><a href="#screenshots">Screenshots</a></li>
 					<li><a href="#privacy">Privacy</a></li>
-					<li><a href="#FAQ">FAQ</a></li>
+					<li><a href="#faq">FAQ</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -48,13 +47,16 @@
 						<article class="flex">
 							<h1>Canada's Private Messenger</h1>
 							<p>All data stored on Canadian servers. No foreign access.</p>
-
-							<button class="btn-primary" disabled>
-								App Store (Coming Soon)
-							</button>
-							<button class="btn-secondary" disabled>
-								Google Play (Coming Soon)
-							</button>
+							<div class="hero-buttons">
+								<a
+									href="https://shell-close-18612202.figma.site/"
+									class="btn btn-primary"
+									>Desktop Version</a
+								>
+								<a href="" class="btn btn-secondary" disabled
+									>Download the App</a
+								>
+							</div>
 						</article>
 
 						<aside>
@@ -67,65 +69,211 @@
 				</div>
 			</section>
 
-			<!-- FEATURES -->
-			<section id="features" class="features">
+			<!-- VISION -->
+			<section id="vision" class="vision">
 				<div class="container">
-					<div class="features-header">
+					<header>
 						<h2>Why MapleChat?</h2>
 						<p>
 							Designed for Canadians who care about privacy, security, and
 							simplicity.
 						</p>
+					</header>
+
+					<article>
+						<p>
+							Creating simple, thoughtful digital experiences that feel
+							personal, inclusive, and a
+							<strong>
+								little bit fun—so everyone who visits walks away feeling
+								understood
+							</strong>
+							, inspired, and excited to come back.
+						</p>
+					</article>
+				</div>
+			</section>
+
+			<!-- FEATURES -->
+			<section id="features" class="features">
+				<div class="container">
+					<header>
+						<h2>See MapleChat in Action</h2>
+						<p>
+							Clean, familiar chat screens built for fast, private
+							conversations.
+						</p>
+					</header>
+
+					<div class="features-grid grid">
+						<figure>
+							<img
+								src="./assets/images/app-mockup-2.png"
+								alt="Chats list screen"
+							/>
+						</figure>
+
+						<article>
+							<h3>Chats list with Canadian contacts.</h3>
+						</article>
+
+						<article>
+							<h3>Secure one‑to‑one conversations.</h3>
+						</article>
+
+						<figure>
+							<img
+								src="./assets/images/app-mockup-3.png"
+								alt="Conversation screen"
+							/>
+						</figure>
+
+						<figure>
+							<img
+								src="./assets/images/app-mockup-4.png"
+								alt="Group chat screen"
+							/>
+						</figure>
+
+						<article>
+							<h3>Groups for families, teams, and communities.</h3>
+						</article>
 					</div>
+				</div>
+			</section>
 
-					<div class="features-content grid">
-						<article class="feature-card">
-							<h3>Data stays in Canada</h3>
+			<!-- PRIVACY -->
+			<section id="privacy" class="privacy">
+				<div class="container">
+					<header>
+						<h2>Privacy that puts you first</h2>
+						<p>
+							MapleChat is built to feel personal and safe, without extra noise
+							or hidden surprises.
+						</p>
+					</header>
+
+					<div class="privacy-grid grid">
+						<article class="card">
+							<figure>
+								<img src="./assets/images/privacy-1.png" alt="Close to Home" />
+							</figure>
+							<h3>Close to home</h3>
 							<p>
-								All messages and media are stored only on Canadian servers for
-								better data residency control.
+								Your messages and media are stored on Canadian infrastructure,
+								keeping your data under local protections.
 							</p>
 						</article>
 
-						<article class="feature-card">
-							<h3>End‑to‑end encryption</h3>
+						<article class="card">
+							<figure>
+								<img src="./assets/images/privacy-2.png" alt="Protected" />
+							</figure>
+							<h3>Protected</h3>
 							<p>
-								Your conversations are protected with strong encryption from
-								sender to receiver.
+								Conversations are encrypted from sender to receiver, so only the
+								people in the chat can read what’s shared.
 							</p>
 						</article>
 
-						<article class="feature-card">
-							<h3>No ads, ever</h3>
+						<article class="card">
+							<figure>
+								<img src="./assets/images/privacy-3.png" alt="No Ads" />
+							</figure>
+							<h3>No ads</h3>
 							<p>
-								Focus on your chats without trackers or targeted advertising.
+								MapleChat doesn’t run targeted ads or tracking pixels, helping
+								keep your chats focused and distraction‑free.
 							</p>
 						</article>
 
-						<article class="feature-card">
-							<h3>Simple, familiar UI</h3>
+						<article class="card">
+							<figure>
+								<img src="./assets/images/privacy-4.png" alt="Choices" />
+							</figure>
+							<h3>Clear choices</h3>
 							<p>
-								A clean interface that feels natural on both iOS and Android.
+								Simple settings make it easy to review, manage, or delete your
+								data whenever you want.
 							</p>
 						</article>
 					</div>
 				</div>
 			</section>
 
-			<!-- SCREENSHOTS -->
-			<!-- <section id="screenshots">
-				<div class="container">screenshots</div>
-			</section> -->
-
-			<!-- PRIVACY -->
-			<!-- <section id="privacy">
-				<div class="container">privacy</div>
-			</section> -->
-
 			<!-- FAQ -->
-			<!-- <section id="FAQ">
-				<div class="container">FAQ</div>
-			</section> -->
+			<section id="faq" class="faq">
+				<div class="container flex">
+					<header>
+						<h2 class="eyebrow">Any question? Here is our FAQ</h2>
+						<p>Curious?<br />Glad to hear it.</p>
+						<span>
+							Browse the FAQs for quick answers,
+							<br />
+							or email
+							<a href="mailto:hello@maplechat.ca">hello@maplechat.ca</a>
+							for anything else.
+						</span>
+					</header>
+
+					<div class="faq-list">
+						<details class="faq-item" open>
+							<summary>
+								<span>When will MapleChat launch?</span>
+								<span class="faq-icon" aria-hidden="true"></span>
+							</summary>
+							<p>
+								MapleChat is currently in private testing with early users.
+								Public access will roll out in phases so we can scale smoothly.
+							</p>
+						</details>
+
+						<details class="faq-item">
+							<summary>
+								<span>How will my data be protected?</span>
+								<span class="faq-icon" aria-hidden="true"></span>
+							</summary>
+							<p>
+								Messages are encrypted in transit and stored on Canadian
+								infrastructure, with controls to manage or delete your data.
+							</p>
+						</details>
+
+						<details class="faq-item">
+							<summary>
+								<span>Will all content be Canadian?</span>
+								<span class="faq-icon" aria-hidden="true"></span>
+							</summary>
+							<p>
+								MapleChat is designed for Canadians first, but you’ll still be
+								able to connect with friends and family living abroad.
+							</p>
+						</details>
+
+						<details class="faq-item">
+							<summary>
+								<span>Which platforms will MapleChat support?</span>
+								<span class="faq-icon" aria-hidden="true"></span>
+							</summary>
+							<p>
+								The initial release will focus on iOS and Android, with the web
+								app following once the core experience is polished.
+							</p>
+						</details>
+
+						<details class="faq-item">
+							<summary>
+								<span>Can I reserve my username?</span>
+								<span class="faq-icon" aria-hidden="true"></span>
+							</summary>
+							<p>
+								Early testers will be able to claim usernames during onboarding,
+								and we’ll share details before wider launch.
+							</p>
+						</details>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<footer>

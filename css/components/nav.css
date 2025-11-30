@@ -1,8 +1,9 @@
 @import "../variables.css";
 
 nav {
-	background-color: var(--color-bg-dark);
-	color: var(--color-text-white);
+	background-color: var(--color-bg-white);
+	border-bottom: 1px solid var(--color-border-dark);
+	color: var(--color-text-dark);
 	padding: var(--padding-md) var(--padding-xl);
 	position: fixed;
 	z-index: 10;
@@ -21,6 +22,7 @@ nav {
 	& span {
 		font-size: 2rem;
 		font-weight: 800;
+		color: var(--color-text-red);
 	}
 
 	& ul {

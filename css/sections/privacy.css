@@ -1,0 +1,10 @@
+@import "../variables.css";
+
+.privacy {
+	background-image: url("../../assets/images/privacy-background.png");
+}
+
+.privacy-grid {
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: var(--gap-lg);
+}
