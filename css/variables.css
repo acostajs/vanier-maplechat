@@ -1,13 +1,14 @@
 :root {
 	/* Colors */
-	--color-bg-blue: #0f63ff;
-	--color-bg-red: #d52b1e;
+	--color-bg-blue: #f3f4f6;
+	--color-bg-red: #b91c1b;
 	--color-bg-white: #ffffff;
+	--color-bg-red-light: #fcf2f0;
 	--color-bg-dark: #0f172a;
 	--color-bg-muted: #6b7280;
 
 	--color-text-dark: #0f172a;
-	--color-text-red: #d52b1e;
+	--color-text-red: #b91c1b;
 	--color-text-white: #f9fafb;
 	--color-text-muted: #6b7280;
 
@@ -26,7 +27,7 @@
 	--font-size-base: 1rem;
 
 	/* Responsive headings with clamp(min, preferred, max) */
-	--font-size-h1: clamp(2.4rem, 4vw, 4.5rem);
+	--font-size-h1: clamp(3rem, 4vw, 6.5rem);
 	--font-size-h2: clamp(2rem, 3vw, 3.5rem);
 	--font-size-h3: clamp(1.6rem, 2.4vw, 2.8rem);
 	--font-size-h4: clamp(1.4rem, 2vw, 2.4rem);
@@ -62,7 +63,7 @@
 	--btn-padding: 1rem 2rem;
 
 	/* Radius */
-	--radius: 1rem;
+	--radius: 0.5rem;
 
 	/* Container */
 	--container-padding: 1rem;

@@ -12,7 +12,6 @@
 		flex-direction: column;
 		gap: var(--gap-lg);
 		justify-content: center;
-		text-align: center;
 	}
 
 	& aside {
@@ -22,4 +21,16 @@
 
 .hero-content {
 	gap: var(--gap-lg);
+}
+
+.hero-message-container {
+	align-items: center;
+	& .logo {
+		width: 20px;
+		height: 20px;
+	}
+}
+
+.hero-message {
+	font-weight: 700;
 }

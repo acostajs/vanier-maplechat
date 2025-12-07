@@ -1,8 +1,8 @@
 @import "../variables.css";
 
 nav {
-	background-color: var(--color-bg-white);
-	border-bottom: 1px solid var(--color-border-dark);
+	background-color: var(--color-bg-blue);
+
 	color: var(--color-text-dark);
 	padding: var(--padding-md) var(--padding-xl);
 	position: fixed;

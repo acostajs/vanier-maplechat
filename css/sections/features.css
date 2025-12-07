@@ -1,8 +1,7 @@
 @import "../variables.css";
 
 .features {
-	background-color: var(--color-bg-dark);
-	color: var(--color-text-white);
+	background-color: var(--color-bg-red-light);
 
 	& header {
 		padding: var(--padding-xl) 0;
@@ -10,10 +9,6 @@
 
 	& header > h2 {
 		margin-bottom: var(--margin-sm);
-	}
-
-	& header > p {
-		color: var(--color-text-white);
 	}
 
 	& figure {

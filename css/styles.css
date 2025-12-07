@@ -71,6 +71,11 @@ ul {
 
 a {
 	text-decoration: none;
+	transition: 0.3s ease-in-out;
+}
+
+a:not(.btn):hover {
+	font-weight: 800;
 }
 
 button,
@@ -172,22 +177,29 @@ h6 {
 
 .btn-primary {
 	background-color: var(--color-bg-red);
+	color: var(--color-text-white);
 }
 
 .btn-secondary {
-	background-color: var(--color-bg-blue);
+	background-color: var(--color-bg-white);
+	color: var(--color-text-red);
+	border: 2px solid var(--color-bg-red);
 }
 
 .btn-primary,
 .btn-secondary {
-	color: var(--color-text-white);
-	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-		1px 1px 0 black;
-	font-weight: 800;
+	display: inline-block;
+	font-weight: 700;
 }
 
 .card {
 	padding: var(--padding-lg);
 	border-radius: 0.75rem;
 	background-color: var(--color-bg-white);
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.red {
+	color: var(--color-text-red);
 }

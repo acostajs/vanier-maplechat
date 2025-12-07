@@ -2,9 +2,14 @@
 
 .privacy {
 	background-image: url("../../assets/images/privacy-background.png");
+	background-color: var(--color-bg-blue);
+
+	& header > p {
+		margin-bottom: var(--margin-md);
+	}
 }
 
 .privacy-grid {
-	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: var(--gap-lg);
 }
