@@ -1,0 +1,63 @@
+{
+	"meta": {
+		"title": "MapleChat - Canada-Only Messenger Landing Page",
+		"role": "Frontend Developer",
+		"type": "Team project",
+		"audience": ["Recruiters", "Instructors", "Developers"],
+		"status": "Completed"
+	},
+
+	"overview": {
+		"summary": "A responsive single-page prototype built to pitch MapleChat, a Canada-only messaging concept focused on privacy and Canadian data residency.",
+		"problem": "Many messaging platforms store user data outside Canada, creating privacy and compliance concerns for Canadian users.",
+		"solution": "A clean, static landing page that clearly presents the product concept and links to a Figma chat prototype to support the pitch."
+	},
+
+	"responsibilities": [
+		"Built the landing page using semantic HTML and custom CSS",
+		"Implemented responsive layouts for desktop and mobile",
+		"Structured content to clearly communicate the product idea and value",
+		"Collaborated with teammates to align content and presentation"
+	],
+
+	"tech_stack": ["HTML5", "CSS3", "GitHub Pages"],
+
+	"architecture": {
+		"approach": "Static single-page prototype built with plain HTML and CSS, optimized for clarity, speed, and easy iteration.",
+		"data_flow": "All content is static and organized into clear sections; styles and assets are separated for maintainability.",
+		"deployment": "Deployed on GitHub Pages for fast sharing and portfolio review."
+	},
+
+	"key_features": [
+		"Responsive layout built without frameworks",
+		"Hero section presenting the core product idea and privacy focus",
+		"Hero call-to-action linking to a Figma chat prototype",
+		"Feature and FAQ sections supporting the overall pitch"
+	],
+
+	"challenges_and_learnings": [
+		"Communicating a product concept effectively with minimal UI",
+		"Making layout and content decisions under time constraints",
+		"Aligning design and messaging within a small team",
+		"Translating abstract ideas into a clear, usable prototype"
+	],
+
+	"skills_demonstrated": [
+		"Semantic HTML and CSS",
+		"Responsive layout without frameworks",
+		"Rapid prototyping and iteration",
+		"Team collaboration and version control"
+	],
+
+	"future_improvements": [
+		"Replace placeholders with finalized branding and UI assets",
+		"Expand privacy and data residency explanations",
+		"Polish visual hierarchy and spacing",
+		"Add basic animations for improved presentation"
+	],
+
+	"links": {
+		"live_demo": "https://acostajs.github.io/vanier-maplechat/",
+		"source_code": "https://github.com/acostajs/vanier-maplechat"
+	}
+}
